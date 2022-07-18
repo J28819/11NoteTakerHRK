@@ -1,0 +1,31 @@
+{
+  "name": "11notetakerhrk",
+  "version": "1.0.0",
+  "description": "Note Taker Project for GTBootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J28819/11NoteTakerHRK.git"
+  },
+  "keywords": [
+    "Heroku",
+    "Express",
+    "Node",
+    "JSON"
+  ],
+  "author": "Ismael Leal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/J28819/11NoteTakerHRK/issues"
+  },
+  "homepage": "https://github.com/J28819/11NoteTakerHRK#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
