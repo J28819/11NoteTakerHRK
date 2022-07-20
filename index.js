@@ -14,7 +14,7 @@ app.use('/img', express.static(path.join(__dirname, 'public/img')))
 
 
 app.get('/', (req, res) => {
-    res.sendFile(__dirname, '/public/index.html')
+    res.sendFile(path.join(__dirname, '/public/index.html'))
   })
 
 
