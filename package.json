@@ -4,6 +4,7 @@
   "description": "Note Taker Project for GTBootcamp",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "test"
   },
   "repository": {
