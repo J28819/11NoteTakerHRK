@@ -2,7 +2,7 @@ const express = require('express');
 var fs = require('fs');
 
 const app = express();
-const PORT = 3001;
+const PORT = Process.env.PORT || 3001;
 const path = require('path');
 app.use(express.static('public'))
 
@@ -14,7 +14,7 @@ app.use('/img', express.static(path.join(__dirname, 'public/img')))
 
 
 app.get('/', (req, res) => {
-    res.sendFile('index.html')
+    res.sendFile(__dirname, '/public/index.html')
   })
 
 
