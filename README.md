@@ -60,7 +60,9 @@ Overview2
 
 ## Heroku Deployment
 
-https://dashboard.heroku.com/apps/notetakerhrk
+https://notetakerhrk.herokuapp.com
+
+
 
 
 
