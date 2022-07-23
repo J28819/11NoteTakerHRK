@@ -105,4 +105,4 @@ dist
 
 # Files to Ignore
 package-lock.json
-
+.public1

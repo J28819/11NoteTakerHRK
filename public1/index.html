@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>J28819/11NoteTakerHRK</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+ 
+</head>
+<section class="container-fluid">
+    <h2>J28819/11NoteTakerHRK</h2>
+    <p>Note Taker with Node and Heroku</p>
+</section >
+<body>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      
+     
+      <div class="input-group">
+       
+    <h3>Notes:</h3>
+    <div class="results"></div>
+      </div>
+
+      <hr>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">Note1</a></li>
+        <li class="active"><a href="#section1">Note2</a></li>
+        <li class="active"><a href="#section1">Note3</a></li>
+        <li class="active"><a href="#section1">Note4</a></li>
+        
+      </ul>
+      <ul id="selectplaces"class="nav nav-pills nav-stacked">
+       
+      </ul>
+      <br>
+    
+    </div>
+ 
+    <div class="col-sm-9">
+      <div class="row">
+        <div class="container">
+          
+          <div class="row">
+            <div class="col-md-8 card-tops">
+              <hr>
+              <div class="panel-group">
+                <div class="panel panel-success text-center">
+                    <h2 id="Title"><small>--Type in the search the city that you want to see the weather</small></h2>
+                </div>
+              </div>
+              <div class="panel-group">
+                <div class="panel panel-success`">
+                  <div class="panel-body">
+                    
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card-body" >
+                        <ul>
+                          <li style="list-style: none"><h5 id="TempActual" class="card-title text-left"></h5></li>
+                          <li style="list-style: none" ><h5 id="TempMin" class="card-title text-left"></h5></li>
+                          <li style="list-style: none" ><h5 id="TempMax" class="card-title text-left"></h5></li>
+                        </ul>
+                      </div>  
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card-body" >
+                        <ul>
+                          <li style="list-style: none" ><h5 id="feelslike" class="card-title text-left"></h5></li>
+                          <li style="list-style: none" ><h5 id="humidity" class="card-title text-left"></h5></li>
+                          <li style="list-style: none" ><h5 id="pressure" class="card-title text-left"></h5></li>
+                        </ul>
+                      </div>  
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card-body" >
+                        <img id="iconActual" class="" src="" style="background: rgb(198, 196, 196)"> 
+                      </div>  
+                    </div>
+                  </div>
+                  <hr>
+                  <h5 id="Wdescription" class="card-title text-center">J28819/WeatherApp is an example how to use API calls and integrate the information</h5>
+                  <hr>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              </div>
+          </div>
+        </div>
+      <hr>
+  </div>
+      <div id="forecast" class="row">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid">
+  <p>J28819/WeatherApp</p>
+</footer>
+
+</body>
+</html>
